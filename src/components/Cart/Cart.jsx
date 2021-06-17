@@ -34,7 +34,7 @@ function Cart({ cart }) {
             variant="contained"
             color="secondary"
           >
-            Empty Basket
+            Empty Cart
           </Button>
           <Button
             className={classes.checkoutButton}
@@ -53,7 +53,7 @@ function Cart({ cart }) {
   return (
     <Container>
       <div className={classes.toolbar} />
-      <Typography className={classes.title} variant="h3" gutterBottom gutterBottom>
+      <Typography className={classes.title} variant="h3" gutterBottom >
         Your Shopping cart
       </Typography>
       {isEmpty ? <EmptyCart /> : <FilledCart />}

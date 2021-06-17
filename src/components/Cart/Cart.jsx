@@ -34,7 +34,7 @@ function Cart({ cart }) {
             variant="contained"
             color="secondary"
           >
-            Empty Button
+            Empty Basket
           </Button>
           <Button
             className={classes.checkoutButton}

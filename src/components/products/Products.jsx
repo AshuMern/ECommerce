@@ -3,24 +3,7 @@ import React from "react";
 import Product from "./Product";
 import useStyles from './style';
 
-// const products = [
-//   {
-//     id: 1,
-//     name: "TV",
-//     description: "MI 4A Pro Full HD display",
-//     price: "14999RS",
-//     image:
-//       "https://images-na.ssl-images-amazon.com/images/I/71qOOWyfc7L._SX425_.jpg",
-//   },
-//   {
-//     id: 2,
-//     name: "Mi Note 9 Pro",
-//     description: "Qualcom Snapdragon 855",
-//     price: "18000RS",
-//     image:
-//       "https://images.indianexpress.com/2020/03/3.jpg",
-//   },
-// ];
+
 function Products({product,onAddToCart}) {
     const classes=useStyles();
   return (
